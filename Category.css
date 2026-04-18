@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+    background-color:#C7D2FE;
+    text-align: center;
+}
+
+.book.row {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px auto;
+    width: 100px;
+}
+
+.book-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.price{
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+}
+
+.buy-btn{
+    background-color: #333;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buy-btn:hoover {
+    background-color: #555;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
