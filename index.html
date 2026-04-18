@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Shop</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+
+    <form action="/search-results-page" method="GET">
+  <input type="search" name="q" placeholder="Search..." aria-label="Search through site content">
+  <button type="submit">Search</button>
+</form>
+
+    <header>
+    
+    <div class="logo-container">
+    <div class="icon-image">
+        <img src="Screenshot 2026-04-18 111553.png" alt="Cozy Bookstore">
+    </div>
+    </div>
+    
+    <h1>Verse and Vines</h1>
+    
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="About us.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="Category.html">Category</a></li>
+        <li><a href="contact.html"> Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section id="home">
+        <h3>Dive into the world of books.</h3>
+        <button id="specialsBtn">Special Offers</button>
+    </section>
+<section id="location">
+    <h3>Find Us</h3>
+    <p>Bakhundole,Lalitpur</p>
+    <p>Open Daily: 9am - 8pm</p>
+</section>
+
+<script>
+    const category = document.getElementById('categoryLink');
+    const location = document.getElementById('locationLink');
+    
+     
+    category.addEventListener('click', function(){
+        window.location.href = 'Category.html';
+    })
+     location.addEventListener('click', function(){
+        window.location.href = 'location.html';
+    })
+     
+
+
+
+    const specialsBtn = document.getElementById('specialsBtn');
+    specialsBtn.addEventListener('click',function(){
+        window.location.href = 'specials.html';
+    })
+
+    
+</script>
+    
+<footer>
+    
+    <p>Follow us on Instagram @VerseandVines</p>
+    <p>Terms and Conditions</p>
+    <p>By Dristy Ghalan</p>
+</footer>
+</body>
+</html>
