@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif ;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #C7D2FE;
+}
+header{
+    display:flexbox;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    box_sizing: border-box;
+}
+.nav-links {
+    display: flex;
+    gap : 15px;
+}
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.hours {
+    margin-top: 10px;
+}
+footer {
+    margin-top: auto;
+    width:100%;
+}
